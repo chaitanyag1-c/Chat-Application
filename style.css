@@ -1,0 +1,73 @@
+body{
+    background-image: url("abc.jpg") ;
+}
+
+.logo{
+display: block;
+margin: auto;
+width: 75px;
+height: 75px;
+}
+
+h1{
+    position: absolute;
+    margin-top: 12px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: inherit;
+    text-align: center;
+    color:whitesmoke; 
+    font-stretch: condensed;
+}
+
+.container12{
+    max-width: 955px;
+    background-color:whitesmoke;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+}
+
+.message{
+    background-color:skyblue;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid burlywood;
+    border-radius: 10px;
+    font-family: cursive;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+}
+
+#messageInp{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+
+.btn{
+    cursor: pointer ;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
